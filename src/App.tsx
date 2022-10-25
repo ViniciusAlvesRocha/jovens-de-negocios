@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import Presentation from './pages/Presentation';
 import './App.css';
+import TopShadowYellow from './assets/shadow-yellow-top-page-1';
+import Page2 from './pages/Page2';
+import Page3 from './pages/Page3';
+import Page4 from './pages/Page4';
+import Page5 from './pages/Page5';
+import Opinions from './pages/Opinions';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopShadowYellow/>
+      <Presentation />
+      <Page2 />
+      <Page3 />
+      <Page4 />
+      <Page5 />
+      <Opinions />
     </div>
   );
 }
