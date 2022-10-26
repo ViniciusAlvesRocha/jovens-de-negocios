@@ -1,6 +1,7 @@
 import React from 'react';
 import OpinionsStyled from './styled';
 import CardOpinion from '../../components/CardOpnion';
+import nextArrow from '../../assets/arrow.svg';
 
 const opinions = [
     {
@@ -16,8 +17,12 @@ const opinions = [
 export default () => (
     <OpinionsStyled>
         <h2>VEJA A OPINIÃO DE QUEM JÁ ADQUIRIU O AUMENTE SUA RENDA</h2>
-        <div>
-            {opinions.map(({name, opinion}) => <CardOpinion name={name} opinion={opinion} />)}
+        <div className="container-opnions">
+            <img className="next-arrow-left" src={nextArrow} alt="arrow left" />
+            <div>
+                {opinions.map(({name, opinion}) => <CardOpinion name={name} opinion={opinion} />)}
+            </div>
+            <img className="next-arrow-right" src={nextArrow} alt="arrow right" />
         </div>
     </OpinionsStyled>
 );

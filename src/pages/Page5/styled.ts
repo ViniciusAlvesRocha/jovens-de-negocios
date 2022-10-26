@@ -8,10 +8,10 @@ export default styled.section`
     align-items: center;
     background: url('${backgroundSparks}'), #000;
     background-repeat: no-repeat;
-    background-position: 200px 500px;
+    background-position: 0 500px;
     position: relative;
     bottom: 150px;
-    height: 230vh;
+    height: 265vh;
 
     & > div {
         height: 900px;

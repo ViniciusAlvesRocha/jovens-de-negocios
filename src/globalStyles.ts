@@ -10,8 +10,19 @@ const GlobalStyle = createGlobalStyle`
         color: #fff;
     }
 
+    .strong {
+        font-weight: 900;
+    }
+
     .background-site {
         background-color: #000;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .button-styled {
@@ -23,6 +34,18 @@ const GlobalStyle = createGlobalStyle`
         border-radius: 9px;
         border: none;
         font-weight: 700;
+    }
+
+    .primary-color {
+        color: #F18805;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .sponsors {
+        text-align: center;
     }
 `;
  
