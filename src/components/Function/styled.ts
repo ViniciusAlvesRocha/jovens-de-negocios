@@ -12,7 +12,7 @@ export default styled.div`
         top: 5.5px;
         width: 808px;
         height: 273px;
-        background: url('${window.location.href}${props => props.theme.background}');
+        background: url('${props => props.theme.background}');
         ${props => props.theme.insetShadow ? 'box-shadow: inset 808px -283px 200px rgba(0, 0, 0, .85);' : ''}
         border-radius: 72px;
         padding: ${props => props.theme.icon ? '20px' : '60px'} 45px;
