@@ -8,11 +8,12 @@ export default styled.section`
 
     h2 {
         color: #fff;
+        width: 1000px;
         font-size: 48px;
         font-weight: 700;
         text-align: center;
         margin: 0 auto;
-        box-shadow: 10px -30px 20px #000;
+        box-shadow: 0 -50px 20px #000;
     }
 
     .container-card-comments {

@@ -4,7 +4,7 @@ const CardEnrollNowStyled = styled.div`
     border: 1px solid #f18805;
     border-radius: 46px;
     color: #fff;
-    width: 471px;
+    width: 30%;
     height: 650px;
     padding: 40px;
 
